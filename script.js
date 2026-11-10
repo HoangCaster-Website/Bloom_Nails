@@ -163,6 +163,9 @@ if (priceTabs.length && priceCards.length) {
   priceTabs.forEach((tab) => {
     tab.addEventListener('click', () => {
       const filter = tab.dataset.filter;
+      const visibleCardCount = Array.from(priceCards).filter(
+        (card) => filter === 'all' || card.dataset.category === filter,
+      ).length;
 
       priceTabs.forEach((t) => {
         t.classList.remove('is-active');
@@ -170,6 +173,7 @@ if (priceTabs.length && priceCards.length) {
       });
       tab.classList.add('is-active');
       tab.setAttribute('aria-selected', 'true');
+      document.querySelector('.price-grid').classList.toggle('is-single', visibleCardCount === 1);
 
       priceCards.forEach((card) => {
         if (filter === 'all' || card.dataset.category === filter) {

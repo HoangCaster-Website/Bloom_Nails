@@ -1434,6 +1434,11 @@ p {
   gap: 28px;
 }
 
+.price-grid.is-single {
+  grid-template-columns: minmax(0, min(100%, 665px));
+  justify-content: center;
+}
+
 .price-card {
   display: flex;
   flex-direction: column;
