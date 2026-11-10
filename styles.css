@@ -2163,6 +2163,15 @@ p {
   color: rgba(255, 255, 255, 0.55);
 }
 
+.footer-bottom .footer-copyright {
+  padding-left: 12px;
+  border-left: 2px solid var(--gold);
+  color: var(--champagne);
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.025em;
+}
+
 .back-to-top {
   color: var(--champagne);
   font-weight: 700;
