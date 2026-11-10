@@ -1,0 +1,50 @@
+{
+  "contract": "Bloom Nails single-page salon website. Help visitors understand the salon, compare services and prices, then call or get directions. Primary action: book by phone. Hierarchy: brand and booking first, opening promotion voucher second, then about story, services, price list with category tabs, gallery, opening hours & visit details. Tone: blush pink, berry, deep berry, champagne-gold luxury palette with Cormorant Garamond display and Manrope body typography.",
+  "targetViewports": ["1440x1000", "500x844"],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Semantic heading hierarchy (H1-H4) and landmarks (header, nav, main, aside, section, footer) are properly structured; skip link and visible gold focus indicators are present; mobile menu manages aria-expanded, aria-hidden and inert states; gallery lightbox supports keyboard navigation (Esc, Space, Enter, Left, Right Arrow) and returns focus after closing."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Tested across desktop (1440px), tablet (980px, 768px), and mobile (600px, 390px). 2-column balanced hero layout prevents text overflow and awkward cropping; 8-service symmetrical grid collapses cleanly; interactive price tabs allow easy category filtering; persistent mobile quick actions bar provides direct call, directions and prices access without clipping."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "The page renders local static content and has no asynchronous application loading state."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "All salon content, service prices and gallery media are authored directly in the page."
+    },
+    "error": {
+      "status": "not-applicable",
+      "reason": "The page contains no user-submitted workflow or local data request that exposes an in-page error state."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "The static sections do not aggregate independently loading data sources."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "The complete page loaded with announcement bar, hero section with 2-column luxury composition, grand opening voucher, about story, 8 service cards, tabbed price list, gallery lightbox, opening hours table, Google maps embed and footer."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "No browser or account permission is requested by the site."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x1000",
+      "artifact": "desktop-1440x1000.png",
+      "observation": "Desktop layout displays a balanced 2-column editorial hero with luxury window arch frame and floating badges, a VIP grand opening voucher, 8-card symmetrical service grid, tabbed price cards with dotted leader lines, full opening hours table, and 4-column footer."
+    },
+    {
+      "viewport": "500x844",
+      "artifact": "mobile-500x844.png",
+      "observation": "Mobile view features an announcement bar, responsive non-clipped typography, stacked visual framing, full-width touch buttons, collapsible interactive price list, and sticky bottom quick action bar."
+    }
+  ]
+}
