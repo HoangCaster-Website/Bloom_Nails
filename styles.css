@@ -374,41 +374,16 @@ p {
 
 /* Brand Logo */
 .brand {
-  position: relative;
-  display: grid;
-  grid-template-columns: 24px auto;
-  grid-template-rows: 29px 17px;
+  display: inline-flex;
+  flex: 0 0 auto;
   align-items: center;
-  min-width: 145px;
-  color: var(--berry);
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-weight: 700;
-  line-height: 0.75;
+  width: 190px;
 }
 
-.brand-bloom {
-  grid-row: 1 / 3;
-  align-self: start;
-  margin-top: 3px;
-  color: var(--gold);
-  font-size: 1.05rem;
-}
-
-.brand-word {
-  font-size: 2.25rem;
-  font-style: italic;
-  letter-spacing: -0.06em;
-}
-
-.brand-word--small {
-  align-self: start;
-  padding-left: 3px;
-  font-family: "Manrope", sans-serif;
-  font-size: 0.62rem;
-  font-style: normal;
-  font-weight: 800;
-  letter-spacing: 0.42em;
-  text-transform: uppercase;
+.brand-logo {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .main-nav {
@@ -2075,11 +2050,8 @@ p {
 }
 
 .footer-brand {
+  width: 185px;
   margin-bottom: 12px;
-}
-
-.footer-brand .brand-word, .footer-brand .brand-bloom {
-  color: var(--champagne);
 }
 
 .footer-tagline {

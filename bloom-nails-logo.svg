@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="220" viewBox="0 0 760 220" fill="none">
+  <circle cx="110" cy="110" r="91" stroke="#9D1744" stroke-width="3"/>
+  <circle cx="110" cy="110" r="81" stroke="#C39A4A" stroke-width="1.5"/>
+  <g stroke="#9D1744" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110 49c14 17 17 34 0 53-17-19-14-36 0-53Z" fill="#F4DFB2"/>
+    <path d="M110 171c-14-17-17-34 0-53 17 19 14 36 0 53Z" fill="#F4DFB2"/>
+    <path d="M49 110c17-14 34-17 53 0-19 17-36 14-53 0Z" fill="#F4DFB2"/>
+    <path d="M171 110c-17 14-34 17-53 0 19-17 36-14 53 0Z" fill="#F4DFB2"/>
+    <path d="M67 67c22 2 36 12 39 39-27-3-37-17-39-39Z" fill="#F4DFB2"/>
+    <path d="M153 153c-22-2-36-12-39-39 27 3 37 17 39 39Z" fill="#F4DFB2"/>
+    <path d="M153 67c-2 22-12 36-39 39 3-27 17-37 39-39Z" fill="#F4DFB2"/>
+    <path d="M67 153c2-22 12-36 39-39-3 27-17 37-39 39Z" fill="#F4DFB2"/>
+  </g>
+  <circle cx="110" cy="110" r="8" fill="#C39A4A"/>
+  <text x="231" y="126" fill="#6F1235" font-family="Cormorant Garamond, Georgia, serif" font-size="94" font-style="italic" font-weight="600" letter-spacing="-5">Bloom</text>
+  <text x="240" y="177" fill="#9D1744" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="13">NAILS</text>
+</svg>
